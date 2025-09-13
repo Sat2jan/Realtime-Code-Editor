@@ -8,8 +8,8 @@ const app = express();
 
 const server = http.createServer(app);
 
-const url = `https://realtime-code-editor-afb2.onrender.com/`;
-const interval = 30000;
+// const url = `https://realtime-code-editor-final.onrender.com`;
+// const interval = 30000;
 
 function reloadWebsite() {
   axios
